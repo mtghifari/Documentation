@@ -1,0 +1,47 @@
+site_name: My Docs
+site_url: https://mydomain.org/lapangboladoc
+theme:
+  name: material
+  palette:
+        # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: green
+      accent: deep purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep orange 
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.section
+    - toc.integrate
+
+nav:
+  - Home: index.md
+  - Preparation:
+    - Library Preparation: preparation/libprep.md
+    - Data Frame Preparation: preparation/dataframe.md
+  - Player Radar: pradar.md
+  - Match Momentum: matchmomentum.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
