@@ -1,5 +1,7 @@
 # Match Momentum 
 
+Match momentum refers to the quantitatve representation that measures the swing of the match and which team is creating threatening situations at certain points in time. It also show important actions at certain time, example: goal, subs, and cards
+
 Steps for python code that used to build match momentum graphic
 
 ## Creating Momentum Function

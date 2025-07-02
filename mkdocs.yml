@@ -34,8 +34,9 @@ nav:
   - Preparation:
     - Library Preparation: preparation/libprep.md
     - Data Frame Preparation: preparation/dataframe.md
-  - Player Radar: pradar.md
-  - Match Momentum: matchmomentum.md
+  - Processing:
+    - Player Radar: processing/pradar.md
+    - Match Momentum: processing/matchmomentum.md
 
 markdown_extensions:
   - pymdownx.highlight:

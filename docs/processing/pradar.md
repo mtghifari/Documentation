@@ -1,5 +1,8 @@
 # Player Radar Processing
 
+
+Player radar is a visual representation of a player's performance across visual statistical categories, otfen display as a polygon or spider chart. In Lapangbola's player radar, we compare a player stats with league player average statistics on the same season based on some stat metrics.
+
 This page provides to creating player radar based from player excel report.
 
 All data frame should be called before creating action. How to create data frame can go to Data Frame page.

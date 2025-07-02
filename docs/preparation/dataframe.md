@@ -14,7 +14,9 @@ all_files = glob.glob(os.path.join(path, "*.xlsx"))
 
 #load all the files to a dataframe
 df = pd.concat((pd.read_excel(f, skiprows=[0]) for f in all_files), ignore_index=True)
-#df = df[df['Gameweek']<18].reset_index(drop=True)
+#filter data based on gameweek if you want specific data
+#df = df[df['Gameweek'](spesific game week)].reset_index(drop=True)
+#example: df = df[df['Gameweek']<18], if you want filter data based on first 18 gameweek
 df
 ```
 
@@ -32,7 +34,9 @@ dx = pd.DataFrame()
 for f in all_files:
   temp = pd.read_excel(f, skiprows=[0])
   dx = pd.concat([dx, temp], ignore_index=True)
-#dx = dx[dx['Gameweek']<18].reset_index(drop=True)
+#filter data based on gameweek if you want specific data
+#df = df[df['Gameweek'](spesific game week)].reset_index(drop=True)
+#example: df = df[df['Gameweek']<18], if you want filter data based on first 18 gameweek
 dx
 ```
 
