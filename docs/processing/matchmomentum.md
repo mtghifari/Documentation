@@ -2,7 +2,7 @@
 
 Match momentum refers to the quantitatve representation that measures the swing of the match and which team is creating threatening situations at certain points in time. It also show important actions at certain time, example: goal, subs, and cards
 
-Steps for python code that used to build match momentum graphic
+Steps for python code that used to build match momentum graphic from timeline excel report in each round.
 
 ## Creating Momentum Function
 ```py linenums="1"
@@ -249,7 +249,8 @@ Finishing function, return to figure
 ```
 
 Calling match momentum after create function
-```
+```py
+#excel file and path are adjust based on yours
 df1 = pd.read_excel('tl1.xlsx', skiprows=[0])
 df2 = pd.read_excel('tl2.xlsx', skiprows=[0])
 
